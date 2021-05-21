@@ -32,15 +32,15 @@ export default function UserAPI() {
                                         <CardBody>
                                             <small>{user.id}</small>
                                             <CardTitle className="title">{user.name}</CardTitle>
-                                            <CardSubtitle>{user.email}</CardSubtitle>
-                                            <CardText>
+                                            <CardSubtitle className="subtitle">{user.email}</CardSubtitle>
+                                            <CardText className="text">
                                                 <p>Phone Number: {user.phone}</p>
                                                 <p>Company Website: {user.website}</p>
-                                                <p>Address: {user.address.street} {user.address.suite}{user.address.city}
+                                                <p>Address: {user.address.street}, {user.address.suite}, {user.address.city}
                                                     </p>
                                                 <p>Zipcode: {user.address.zipcode}</p>
                                                 <p>
-                                                    Comapany Detail: {user.company.name} {user.company.catchPhrase} {user.company.bs}
+                                                    Comapany Detail: {user.company.name},  {user.company.catchPhrase}, {user.company.bs}
                                                 </p>   
                                             </CardText>
                                         </CardBody>

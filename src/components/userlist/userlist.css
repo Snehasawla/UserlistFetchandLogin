@@ -14,3 +14,12 @@ small {
     opacity: 1;
     border-radius: 100px bold black;
   }
+  .title, .subtitle, .text{
+      padding: 5px 5px 5px 5px;
+      margin: auto;
+      font-size: medium ;
+      font-weight: bold;
+  }
+  .title{
+      font-size: 30px;
+  }
