@@ -1,0 +1,16 @@
+small {
+    border: 2px solid rgb(12, 11, 11);
+    font-style: bold;
+    border-radius: 7px;
+    padding: 5px 12px;
+    color: black;
+  }
+
+  .card{
+    background-color:white;
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+    margin: 80px 80px 80px 80px;
+    padding: 80px 80px 80px 80px;
+    opacity: 1;
+    border-radius: 100px bold black;
+  }

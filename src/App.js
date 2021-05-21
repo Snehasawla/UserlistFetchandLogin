@@ -1,10 +1,10 @@
-import { useState } from 'react';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import './App.css';
 import Login from './components/Login/login';
 import Dashboard from './components/Dashboard/dashboard';
 import Preferances from './components/Preferences/preferences';
 import useToken from './components/App/useToken';
+import UserAPI from './components/userlist/userList';
 
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
   return (
     <div className="wrapper">
       <h2>Application</h2>
+      <UserAPI />
       <BrowserRouter>
         <Switch>
           <Route path='/dashboard'>
